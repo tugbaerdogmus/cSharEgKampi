@@ -12,51 +12,174 @@ namespace _0102Dersler
         static void Main(string[] args)
         {
             #region ders1
+            #region yazdıma komutları
+
+            ////Console.WriteLine("Merhaba Dünya");
+            ////Console.Write("selam");
+
+            //Console.WriteLine("*** Yemek Kategorileri ***");
+            //Console.WriteLine();
+            //Console.WriteLine("1-Çorbalar");
+            //Console.WriteLine("2-Ana Yemekler");
+            //Console.WriteLine("3-Soğuk Başlangıçlar");
+            //Console.WriteLine("4-Salatalar");
+            //Console.WriteLine("5-Tatlılar");
+            //Console.WriteLine("6-İçecekler");
+            //Console.WriteLine();
+            //Console.WriteLine("*** Yemek Kategorileri ***");
             #endregion
 
+            #region Değişkenler
+            ////string
+            ////Değişken_türü değişken_adı;
+
+            ////string name;
+            ////name = "Tuğba";
+            ////Console.Write(name);
+
+            //string customerName;
+            //string customerSurname;
+            //string customerPhone;
+            //string customerEmail, district, city;
+
+            //customerName = "Ali";
+            //customerSurname = "Çınar";
+            //customerPhone = "+90 500 400 30 20";
+            //customerEmail = "deneme@gmail.com";
+            //district = "Kadıköy";
+            //city = "İstanbul";
+            //Console.WriteLine("*** Rezervasyon Kartı ***");
+            //Console.WriteLine();
+            //Console.WriteLine("------------------------------------------------");
+            //Console.WriteLine("Müşteri: " + customerName + " " + customerSurname);
+            //Console.WriteLine("İletişim: " + customerPhone);
+            //Console.WriteLine("Email: " + customerEmail);
+            //Console.WriteLine("Adres: " + district + "/" + city);
+            //Console.WriteLine("------------------------------------------------");
+            //Console.WriteLine();
+            //customerName = "Ayşegül";
+            //customerSurname = "Kaya";
+            //customerPhone = "+90 400 400 30 20";
+            //customerEmail = "test@gmail.com";
+            //district = "Sapanca";
+            //city = "Sakarya";
+            //Console.WriteLine("*** Rezervasyon Kartı ***");
+            //Console.WriteLine();
+            //Console.WriteLine("------------------------------------------------");
+            //Console.WriteLine("Müşteri: " + customerName + " " + customerSurname);
+            //Console.WriteLine("İletişim: " + customerPhone);
+            //Console.WriteLine("Email: " + customerEmail);
+            //Console.WriteLine("Adres: " + district + "/" + city);
+            //Console.WriteLine("------------------------------------------------");
+            #endregion
+
+            #region int değişkenler
+            ////int
+            ////int number = 24;
+            ////Console.WriteLine(number);
+
+            //int hamburgerPrice = 300;
+            //int cokePrice = 35;
+            //int waterPrice = 10;
+            //int friesPrice = 50;
+            //int pizzaPrice = 250;
+            //int lemonadePrice = 30;
+            //Console.WriteLine("**** Restoran Menü Fiyatı***");
+            //Console.WriteLine();
+            //Console.WriteLine("----Hamburger: " + hamburgerPrice +" TL");
+            //Console.WriteLine("----Pizza: " + pizzaPrice + " TL");
+            //Console.WriteLine("----Kola: " + cokePrice + " TL");
+            //Console.WriteLine("----Limonata: " + lemonadePrice + " TL");
+            //Console.WriteLine("----Kızartma: " + friesPrice + " TL");
+            //Console.WriteLine("----Su: " + waterPrice + " TL");
+            //Console.WriteLine();
+            //Console.WriteLine("**** Restoran Menü Fiyatı***");
+
+            //Console.WriteLine();
+            //int hamburgerCount;
+            //int cokeCount;
+            //int waterCount;
+            //int friesCount;
+            //int pizzaCount;
+            //int lemonadeCount;
+
+            //int totalHamburgerPrice = 0;
+            //int totalCokerPrice = 0;
+            //int totalWaterPrice = 0;
+            //int totalFriesPrice = 0;
+            //int totalPizzaPrice = 0;
+            //int totalLemonadePrice = 0;
+
+            //hamburgerCount = 3;
+            //cokeCount= 3;
+            //waterCount= 3;
+            //friesCount = 1;
+            //pizzaCount = 0;
+            //lemonadeCount = 0;
+            //totalHamburgerPrice = hamburgerCount * hamburgerPrice;
+            //totalPizzaPrice = pizzaCount * pizzaPrice;
+            //totalFriesPrice = friesCount * friesPrice;
+            //totalCokerPrice = cokeCount * cokePrice;
+            //totalLemonadePrice = lemonadeCount * lemonadePrice;
+            //totalWaterPrice = waterCount * waterPrice;
+
+            //Console.WriteLine("-------------------");
+            //Console.WriteLine("Hamburger Tutarı: " + totalHamburgerPrice + " TL");
+            //Console.WriteLine("Pizza Tutarı: " + totalPizzaPrice + " TL");
+            //Console.WriteLine("Kızartma Tutarı: " + totalFriesPrice + " TL");
+            //Console.WriteLine("Kola Tutarı: " + totalCokerPrice + " TL");
+            //Console.WriteLine("Limonata Tutarı: " + totalLemonadePrice + " TL");
+            //Console.WriteLine("Su Tutarı: " + totalWaterPrice + " TL");
+            //Console.WriteLine();
+            //int totalPrice = totalHamburgerPrice + totalPizzaPrice + totalFriesPrice + totalCokerPrice + totalLemonadePrice + totalWaterPrice;
+            //Console.WriteLine("Toplam Ödenecek Tutar: " + totalPrice + " TL");
+            #endregion
+
+            #endregion
 
             #region ders2
             #region double değişkenler
-            ////double number;
-            ////number = 4.85;
-            ////Console.WriteLine(number);
-            //Console.WriteLine("*** Fiyat Listesi ***");
-            //Console.WriteLine();
-            //double applePrice, orangePrice, strawberryPrice, potatoPrice, tomatoPrice;
-            //applePrice = 14.85;
-            //orangePrice = 20.95;
-            //strawberryPrice = 45;
-            //potatoPrice = 9.74;
-            //tomatoPrice = 6.88;
+            //double number;
+            //number = 4.85;
+            //Console.WriteLine(number);
+            Console.WriteLine("*** Fiyat Listesi ***");
+            Console.WriteLine();
+            double applePrice, orangePrice, strawberryPrice, potatoPrice, tomatoPrice;
+            applePrice = 14.85;
+            orangePrice = 20.95;
+            strawberryPrice = 45;
+            potatoPrice = 9.74;
+            tomatoPrice = 6.88;
 
-            //Console.WriteLine("--- Elma Birim Fiyatı:" + applePrice + " tl ekle");
-            //Console.WriteLine("--- Portakal Birim Fiyatı:" + orangePrice);
-            //Console.WriteLine("--- Çilek Birim Fiyatı:" + strawberryPrice);
-            //Console.WriteLine("--- Patates Birim Fiyatı:" + potatoPrice);
-            //Console.WriteLine("--- Domates Birim Fiyatı:" + tomatoPrice);
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.WriteLine("--- Elma Birim Fiyatı: "  + String.Format("{0:C}", applePrice));
+            Console.WriteLine("--- Portakal Birim Fiyatı:" + String.Format("{0:C}", orangePrice));
+            Console.WriteLine("--- Çilek Birim Fiyatı:" + String.Format("{0:C}", strawberryPrice));
+            Console.WriteLine("--- Patates Birim Fiyatı:" + String.Format("{0:C}", potatoPrice));
+            Console.WriteLine("--- Domates Birim Fiyatı:" + String.Format("{0:C}", tomatoPrice));
 
-            //double appleGram, orangeGram, strawberryGram, potatoGram, tomatoGram;
-            //appleGram = 1.245;
-            //orangeGram = 2.650;
-            //strawberryGram = 0.750;
-            //potatoGram = 4.859;
-            //tomatoGram = 3.745;
+            double appleGram, orangeGram, strawberryGram, potatoGram, tomatoGram;
+            appleGram = 1.245;
+            orangeGram = 2.650;
+            strawberryGram = 0.750;
+            potatoGram = 4.859;
+            tomatoGram = 3.745;
 
-            //double appleTotalPrice = appleGram * applePrice;
-            //double orangeTotalPrice = orangeGram * orangePrice;
-            //double strawberryTotalPrice = strawberryGram * strawberryPrice;
-            //double potatoTotalPrice = potatoGram * potatoPrice;
-            //double tomatoTotalPrice = tomatoGram * tomatoPrice;
-            //Console.WriteLine();
-            //Console.WriteLine("Alınan Ürün: Elma -  "+"Birim Fiyat: "+applePrice+" - Gramaj: "+appleGram+" - Toplam Tutar:" +appleTotalPrice);
-            //Console.WriteLine("Alınan Ürün: Portakal -  "+"Birim Fiyat: "+orangePrice+" - Gramaj: "+orangeGram+" - Toplam Tutar:" +orangeTotalPrice);
-            //Console.WriteLine("Alınan Ürün: Çilek -  "+"Birim Fiyat: "+strawberryPrice+" - Gramaj: "+strawberryGram+" - Toplam Tutar:" +strawberryTotalPrice);
-            //Console.WriteLine("Alınan Ürün: Patates -  "+"Birim Fiyat: "+potatoPrice+" - Gramaj: "+potatoGram+" - Toplam Tutar:" +potatoTotalPrice);
-            //Console.WriteLine("Alınan Ürün: Domates -  "+"Birim Fiyat: "+tomatoPrice+" - Gramaj: "+tomatoGram+" - Toplam Tutar:" +tomatoTotalPrice);
+            double appleTotalPrice = appleGram * applePrice;
+            double orangeTotalPrice = orangeGram * orangePrice;
+            double strawberryTotalPrice = strawberryGram * strawberryPrice;
+            double potatoTotalPrice = potatoGram * potatoPrice;
+            double tomatoTotalPrice = tomatoGram * tomatoPrice;
+            Console.WriteLine();
+            Console.WriteLine("Alınan Ürün: Elma -  " + "Birim Fiyat: " + applePrice + " - Gramaj: " + appleGram + " - Toplam Tutar:" + appleTotalPrice);
+            Console.WriteLine("Alınan Ürün: Portakal -  " + "Birim Fiyat: " + orangePrice + " - Gramaj: " + orangeGram + " - Toplam Tutar:" + orangeTotalPrice);
+            Console.WriteLine("Alınan Ürün: Çilek -  " + "Birim Fiyat: " + strawberryPrice + " - Gramaj: " + strawberryGram + " - Toplam Tutar:" + strawberryTotalPrice);
+            Console.WriteLine("Alınan Ürün: Patates -  " + "Birim Fiyat: " + potatoPrice + " - Gramaj: " + potatoGram + " - Toplam Tutar:" + potatoTotalPrice);
+            Console.WriteLine("Alınan Ürün: Domates -  " + "Birim Fiyat: " + tomatoPrice + " - Gramaj: " + tomatoGram + " - Toplam Tutar:" + tomatoTotalPrice);
 
-            //double shoppingTotalPrice = appleTotalPrice + orangeTotalPrice + strawberryTotalPrice + potatoTotalPrice + tomatoTotalPrice;
-            //Console.WriteLine();
-            //Console.WriteLine("Alışverişin Toplam Tutarı: "+ shoppingTotalPrice +"TL");
+            double shoppingTotalPrice = appleTotalPrice + orangeTotalPrice + strawberryTotalPrice + potatoTotalPrice + tomatoTotalPrice;
+            Console.WriteLine();
+            Console.WriteLine("Alışverişin Toplam Tutarı: " + shoppingTotalPrice + "TL");
 
             #endregion
             #region Char Değişkenler
