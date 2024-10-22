@@ -29,7 +29,7 @@ namespace _0102Dersler
             //Console.WriteLine("*** Yemek Kategorileri ***");
             #endregion
 
-            #region Değişkenler
+            #region string Değişkenler
             ////string
             ////Değişken_türü değişken_adı;
 
